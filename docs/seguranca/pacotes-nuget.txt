@@ -1,0 +1,12 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+
+The following sources were used:
+   https://api.nuget.org/v3/index.json
+
+The given project `Oficina.Api` has no vulnerable packages given the current sources.
+The given project `Oficina.Application` has no vulnerable packages given the current sources.
+The given project `Oficina.Domain` has no vulnerable packages given the current sources.
+The given project `Oficina.Infrastructure` has no vulnerable packages given the current sources.
+The given project `Oficina.IntegrationTests` has no vulnerable packages given the current sources.
+The given project `Oficina.UnitTests` has no vulnerable packages given the current sources.

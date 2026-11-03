@@ -25,7 +25,7 @@ public class PecaInsumo
         if (string.IsNullOrWhiteSpace(codigo))
             throw new DomainException("O código da peça é obrigatório.");
 
-        Codigo = codigo.Trim();
+        Codigo = codigo.Trim().ToUpperInvariant();
         Atualizar(nome, unidade, preco);
     }
 
