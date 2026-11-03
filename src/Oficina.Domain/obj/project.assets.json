@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj",
       "projectName": "Oficina.Domain",
-      "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj",
+      "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj",
       "packagesPath": "C:\\Users\\Maverick\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Maverick\\AppData\\Roaming\\NuGet\\NuGet.Config"

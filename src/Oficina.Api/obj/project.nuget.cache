@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MX9NlhyrJcs=",
+  "dgSpecHash": "/I/g24C7BcI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Api\\Oficina.Api.csproj",
+  "projectFilePath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Api\\Oficina.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maverick\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Maverick\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.14\\microsoft.aspnetcore.authentication.jwtbearer.10.0.14.nupkg.sha512",
@@ -48,9 +48,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
-      "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Api\\Oficina.Api.csproj",
+      "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Api\\Oficina.Api.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Api\\Oficina.Api.csproj",
+      "filePath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Api\\Oficina.Api.csproj",
       "libraryId": "Microsoft.OpenApi",
       "targetGraphs": [
         "net10.0"

@@ -1,0 +1,16 @@
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\bin\Debug\net10.0\Oficina.Application.deps.json
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\bin\Debug\net10.0\Oficina.Application.dll
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\bin\Debug\net10.0\Oficina.Application.pdb
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\bin\Debug\net10.0\Oficina.Domain.dll
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\bin\Debug\net10.0\Oficina.Domain.pdb
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\Oficina.Application.csproj.AssemblyReference.cache
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\Oficina.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\Oficina.Application.AssemblyInfoInputs.cache
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\Oficina.Application.AssemblyInfo.cs
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\Oficina.Application.csproj.CoreCompileInputs.cache
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\Oficina.Application.sourcelink.json
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\Oficina..5E279735.Up2Date
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\Oficina.Application.dll
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\refint\Oficina.Application.dll
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\Oficina.Application.pdb
+C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\ref\Oficina.Application.dll

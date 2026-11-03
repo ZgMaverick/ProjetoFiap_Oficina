@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U05ocsQXsNA=",
+  "dgSpecHash": "tE6y2OlIy5o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Infrastructure\\Oficina.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Infrastructure\\Oficina.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maverick\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.4\\microsoft.entityframeworkcore.10.0.4.nupkg.sha512",
     "C:\\Users\\Maverick\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.4\\microsoft.entityframeworkcore.abstractions.10.0.4.nupkg.sha512",

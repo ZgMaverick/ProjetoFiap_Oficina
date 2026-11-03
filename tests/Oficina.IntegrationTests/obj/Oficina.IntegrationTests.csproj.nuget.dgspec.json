@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\tests\\Oficina.IntegrationTests\\Oficina.IntegrationTests.csproj": {}
+    "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\tests\\Oficina.IntegrationTests\\Oficina.IntegrationTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Api\\Oficina.Api.csproj": {
+    "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Api\\Oficina.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Api\\Oficina.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Api\\Oficina.Api.csproj",
         "projectName": "Oficina.Api",
-        "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Api\\Oficina.Api.csproj",
+        "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Api\\Oficina.Api.csproj",
         "packagesPath": "C:\\Users\\Maverick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Api\\obj\\",
+        "outputPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maverick\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -27,11 +27,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Application\\Oficina.Application.csproj": {
-                "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Application\\Oficina.Application.csproj"
+              "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Application\\Oficina.Application.csproj": {
+                "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Application\\Oficina.Application.csproj"
               },
-              "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Infrastructure\\Oficina.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Infrastructure\\Oficina.Infrastructure.csproj"
+              "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Infrastructure\\Oficina.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Infrastructure\\Oficina.Infrastructure.csproj"
               }
             }
           }
@@ -509,14 +509,14 @@
         }
       }
     },
-    "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Application\\Oficina.Application.csproj": {
+    "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Application\\Oficina.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Application\\Oficina.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Application\\Oficina.Application.csproj",
         "projectName": "Oficina.Application",
-        "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Application\\Oficina.Application.csproj",
+        "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Application\\Oficina.Application.csproj",
         "packagesPath": "C:\\Users\\Maverick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Application\\obj\\",
+        "outputPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maverick\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -532,8 +532,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj": {
-                "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj"
+              "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj": {
+                "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj"
               }
             }
           }
@@ -848,14 +848,14 @@
         }
       }
     },
-    "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj": {
+    "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj",
         "projectName": "Oficina.Domain",
-        "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj",
+        "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Domain\\Oficina.Domain.csproj",
         "packagesPath": "C:\\Users\\Maverick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maverick\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1183,14 +1183,14 @@
         }
       }
     },
-    "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Infrastructure\\Oficina.Infrastructure.csproj": {
+    "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Infrastructure\\Oficina.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Infrastructure\\Oficina.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Infrastructure\\Oficina.Infrastructure.csproj",
         "projectName": "Oficina.Infrastructure",
-        "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Infrastructure\\Oficina.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Infrastructure\\Oficina.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Maverick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maverick\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1206,8 +1206,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Application\\Oficina.Application.csproj": {
-                "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Application\\Oficina.Application.csproj"
+              "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Application\\Oficina.Application.csproj": {
+                "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Application\\Oficina.Application.csproj"
               }
             }
           }
@@ -1528,14 +1528,14 @@
         }
       }
     },
-    "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\tests\\Oficina.IntegrationTests\\Oficina.IntegrationTests.csproj": {
+    "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\tests\\Oficina.IntegrationTests\\Oficina.IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\tests\\Oficina.IntegrationTests\\Oficina.IntegrationTests.csproj",
+        "projectUniqueName": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\tests\\Oficina.IntegrationTests\\Oficina.IntegrationTests.csproj",
         "projectName": "Oficina.IntegrationTests",
-        "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\tests\\Oficina.IntegrationTests\\Oficina.IntegrationTests.csproj",
+        "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\tests\\Oficina.IntegrationTests\\Oficina.IntegrationTests.csproj",
         "packagesPath": "C:\\Users\\Maverick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\tests\\Oficina.IntegrationTests\\obj\\",
+        "outputPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\tests\\Oficina.IntegrationTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maverick\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1551,8 +1551,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Api\\Oficina.Api.csproj": {
-                "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\Oficina\\src\\Oficina.Api\\Oficina.Api.csproj"
+              "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Api\\Oficina.Api.csproj": {
+                "projectPath": "C:\\Users\\Maverick\\Documents\\ProjetoFiap_Oficina\\src\\Oficina.Api\\Oficina.Api.csproj"
               }
             }
           }
