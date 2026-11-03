@@ -22,7 +22,7 @@ public class Servico
         if (preco < 0)
             throw new DomainException("O preço não pode ser negativo.");
 
-        Nome = nome.Trim();
+        Nome = nome.Trim().ToUpper();
         Preco = preco;
         TempoEstimadoMinutos = tempoEstimadoMinutos;
     }
