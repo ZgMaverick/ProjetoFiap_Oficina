@@ -1,9 +1,0 @@
-C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\Oficina.Api.csproj.AssemblyReference.cache
-C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\Oficina.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\Oficina.Api.AssemblyInfoInputs.cache
-C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\Oficina.Api.AssemblyInfo.cs
-C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\Oficina.Api.csproj.CoreCompileInputs.cache
-C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\Oficina.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\Oficina.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Maverick\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\Oficina.Api.sourcelink.json
