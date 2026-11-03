@@ -1,0 +1,6 @@
+í
+nC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.IntegrationTests\FluxoOrdemServicoTests.csOficina.IntegrationTests`
+/Oficina.IntegrationTests.FluxoOrdemServicoTests-Endpoint_administrativo_sem_token_retorna_401U
+/Oficina.IntegrationTests.FluxoOrdemServicoTests"Fluxo_completo_da_os_ate_a_entregaK
+/Oficina.IntegrationTests.FluxoOrdemServicoTestsCpf_invalido_retorna_400[
+/Oficina.IntegrationTests.FluxoOrdemServicoTests(Cliente_nao_consulta_os_de_outro_cliente

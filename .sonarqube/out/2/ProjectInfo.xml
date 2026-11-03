@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>Oficina.Infrastructure</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>630a48ab-aef8-24ea-c668-36c355f748d6</ProjectGuid>
+  <FullPath>C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Infrastructure\Oficina.Infrastructure.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResultFiles>
+    <AnalysisResultFile Id="FilesToAnalyze" Location="C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\.sonarqube\conf\2\FilesToAnalyze.txt" />
+  </AnalysisResultFiles>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\.sonarqube\out\2\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\.sonarqube\out\2</Property>
+    <Property Name="sonar.cs.scanner.telemetry">C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\.sonarqube\out\2\Telemetry.json</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net10.0</TargetFramework>
+</ProjectInfo>

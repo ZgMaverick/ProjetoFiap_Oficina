@@ -1,0 +1,13 @@
+﻿C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\DocumentoEPlacaTests.cs
+C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\OrdemDeServicoTests.cs
+C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\PecaInsumoTests.cs
+C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\Servicos\BancoEmMemoria.cs
+C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\Servicos\CadastrosServiceTests.cs
+C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\Servicos\OrdemServicoServiceTests.cs
+C:\Users\harmo\.nuget\packages\microsoft.net.test.sdk\17.14.1\build\net8.0\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\harmo\.nuget\packages\microsoft.testplatform.testhost\17.14.1\build\net8.0\x64\testhost.exe
+C:\Users\harmo\.nuget\packages\microsoft.testplatform.testhost\17.14.1\build\net8.0\x64\testhost.dll
+C:\Users\harmo\.nuget\packages\xunit.runner.visualstudio\3.1.4\build\net8.0\xunit.abstractions.dll
+C:\Users\harmo\.nuget\packages\xunit.runner.visualstudio\3.1.4\build\net8.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\TestResults\d8118c5b-c90f-45c6-850f-00d29b3f6ee0\coverage.cobertura.xml
+C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\TestResults\d81538f6-89fe-4bbd-85dc-46df19d9aee4\coverage.opencover.xml

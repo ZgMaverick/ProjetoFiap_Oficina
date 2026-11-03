@@ -1,0 +1,16 @@
+Y
+PC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\Program.csutf-8p
+gC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\Controllers\VeiculosController.csutf-8u
+lC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\Controllers\OrdensServicoController.csutf-8ù
+íC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\Microsoft.AspNetCore.OpenApi.SourceGenerators\Microsoft.AspNetCore.OpenApi.SourceGenerators.XmlCommentGenerator\OpenApiXmlCommentSupport.generated.csutf-8p
+gC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\Controllers\ClientesController.csutf-8’
+†C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\Oficina.Api.MvcApplicationPartsAssemblyInfo.csutf-8~
+sC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\Oficina.Api.AssemblyInfo.csutf-8v
+mC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\Controllers\AcompanhamentoController.csutf-8l
+cC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\Controllers\AuthController.csutf-8“
+‡C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.csutf-8€
+uC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\obj\Debug\net10.0\Oficina.Api.GlobalUsings.g.csutf-8p
+gC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\Controllers\ServicosController.csutf-8t
+kC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\Controllers\PecasInsumosController.csutf-8n
+eC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\Configuracao\TratadorDeErros.csutf-8~
+uC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Api\Configuracao\BearerSecuritySchemeTransformer.csutf-8

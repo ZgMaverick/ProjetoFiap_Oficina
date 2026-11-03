@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "5.6.0.0",
+        "fileVersion": "5.6.0-2.26230.102 (caa81fa4971f74880cdab61990cb1b11420939ec)",
+        "semanticVersion": "5.6.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "ASP0027",
+          "level": "note",
+          "message": "Using public partial class Program { } to make the generated Program class public is no longer required in ASP.NET Core apps. See https://aka.ms/aspnetcore-warnings/ASP0027 for more details.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/harmo/OneDrive/Documents/ProjetoFiap_Oficina/src/Oficina.Api/Program.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 1,
+                  "endLine": 76,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2068",
+          "level": "warning",
+          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/harmo/OneDrive/Documents/ProjetoFiap_Oficina/src/Oficina.Api/appsettings.json",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 17,
+                  "endLine": 3,
+                  "endColumn": 92
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6964",
+          "level": "warning",
+          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/harmo/OneDrive/Documents/ProjetoFiap_Oficina/src/Oficina.Api/Controllers/OrdensServicoController.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 44,
+                  "endLine": 9,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await MigrateAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/harmo/OneDrive/Documents/ProjetoFiap_Oficina/src/Oficina.Api/Program.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 9,
+                  "endLine": 61,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await EnsureCreatedAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/harmo/OneDrive/Documents/ProjetoFiap_Oficina/src/Oficina.Api/Program.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 9,
+                  "endLine": 63,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await RunAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/harmo/OneDrive/Documents/ProjetoFiap_Oficina/src/Oficina.Api/Program.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 1,
+                  "endLine": 73,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "ASP0027": {
+          "id": "ASP0027",
+          "shortDescription": "Unnecessary public Program class declaration",
+          "defaultLevel": "note",
+          "helpUri": "https://aka.ms/aspnet/analyzers",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Unnecessary"
+            ]
+          }
+        },
+        "S2068": {
+          "id": "S2068",
+          "shortDescription": "Credentials should not be hard-coded",
+          "fullDescription": "Hard-coding credentials in source code or binaries makes it easy for attackers to extract sensitive information, especially in distributed or open-source applications. This practice exposes your application to significant security risks.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Major Vulnerability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6964": {
+          "id": "S6964",
+          "shortDescription": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "fullDescription": "\"Under-posting\" refers to a situation where a client sends less data than expected to the server during an HTTP request, for example when the client omits some properties from the request body that the server expects to receive.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6966": {
+          "id": "S6966",
+          "shortDescription": "Awaitable method should be used",
+          "fullDescription": "In an async method, any blocking operations should be avoided.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

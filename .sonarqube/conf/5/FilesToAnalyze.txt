@@ -1,0 +1,9 @@
+﻿C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.IntegrationTests\ApiFactory.cs
+C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.IntegrationTests\FluxoOrdemServicoTests.cs
+C:\Users\harmo\.nuget\packages\microsoft.net.test.sdk\17.14.1\build\net8.0\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\harmo\.nuget\packages\microsoft.testplatform.testhost\17.14.1\build\net8.0\x64\testhost.exe
+C:\Users\harmo\.nuget\packages\microsoft.testplatform.testhost\17.14.1\build\net8.0\x64\testhost.dll
+C:\Users\harmo\.nuget\packages\xunit.runner.visualstudio\3.1.4\build\net8.0\xunit.abstractions.dll
+C:\Users\harmo\.nuget\packages\xunit.runner.visualstudio\3.1.4\build\net8.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.IntegrationTests\TestResults\14ce6fb3-10bf-4c09-8a39-8b4fae25d991\coverage.cobertura.xml
+C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.IntegrationTests\TestResults\92c750bc-d63c-4fe3-ba56-fc41e85c3247\coverage.opencover.xml

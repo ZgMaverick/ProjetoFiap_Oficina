@@ -1,0 +1,14 @@
+è
+ÉC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\Oficina.Application.AssemblyInfo.csutf-8õ
+èC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.csutf-8ë
+ÖC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\obj\Debug\net10.0\Oficina.Application.GlobalUsings.g.csutf-8}
+tC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\OrdensDeServico\OrdemServicoService.csutf-8s
+jC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\OrdensDeServico\Contratos.csutf-8r
+iC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\Cadastros\VeiculoService.csutf-8z
+qC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\Cadastros\ServicoCatalogoService.csutf-8u
+lC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\Cadastros\PecaInsumoService.csutf-8m
+dC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\Cadastros\Contratos.csutf-8r
+iC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\Cadastros\ClienteService.csutf-8{
+rC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\Abstracoes\NaoEncontradoException.csutf-8w
+nC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\Abstracoes\IUnidadeDeTrabalho.csutf-8q
+hC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Application\Abstracoes\IRepositorio.csutf-8

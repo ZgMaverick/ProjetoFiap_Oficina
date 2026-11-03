@@ -1,0 +1,11 @@
+ç
+ÅC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\obj\Debug\net10.0\Oficina.UnitTests.AssemblyInfo.csutf-8õ
+èC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.csutf-8è
+ÉC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\obj\Debug\net10.0\Oficina.UnitTests.GlobalUsings.g.csutf-8w
+lC:\Users\harmo\.nuget\packages\microsoft.net.test.sdk\17.14.1\build\net8.0\Microsoft.NET.Test.Sdk.Program.csutf-8{
+rC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\Servicos\OrdemServicoServiceTests.csutf-8x
+oC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\Servicos\CadastrosServiceTests.csutf-8q
+hC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\Servicos\BancoEmMemoria.csutf-8i
+`C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\PecaInsumoTests.csutf-8m
+dC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\OrdemDeServicoTests.csutf-8n
+eC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\DocumentoEPlacaTests.csutf-8
