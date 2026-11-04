@@ -31,7 +31,7 @@
 |---|---|
 | **Repositório (público)** | [https://github.com/ZgMaverick/ProjetoFiap_Oficina](https://github.com/ZgMaverick/ProjetoFiap_Oficina) |
 | **Branch da entrega** | `dev` |
-| **Commit da entrega** | [`dba51d01eab91436f87ed1577e5c832c2208e7e7`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/commit/dba51d01eab91436f87ed1577e5c832c2208e7e7) |
+| **Commit da entrega** | [`ee2a80f547deff129bc3525e77f878374bfe3c98`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/commit/ee2a80f547deff129bc3525e77f878374bfe3c98) |
 
 A avaliação deve considerar exclusivamente a versão acima.
 
