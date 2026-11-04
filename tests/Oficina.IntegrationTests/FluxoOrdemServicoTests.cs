@@ -20,7 +20,7 @@ public class FluxoOrdemServicoTests(ApiFactory factory) : IClassFixture<ApiFacto
     private async Task<HttpClient> ClienteAutenticadoAsync()
     {
         var http = factory.CreateClient();
-        var login = await http.PostAsJsonAsync("/api/auth/login", new LoginRequest("admin", "admin123"));
+        var login = await http.PostAsJsonAsync("/api/auth/login", new LoginRequest("admin", ApiFactory.SenhaAdmin));
         var token = (await login.Content.ReadFromJsonAsync<LoginResponse>(Json))!.Token;
         http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
         return http;

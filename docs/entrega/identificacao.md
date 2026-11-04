@@ -44,7 +44,7 @@ A avaliação deve considerar exclusivamente a versão acima.
 | Testes automatizados (mín. 80%) | `tests/` e [`coverage-report/`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/tree/dev/coverage-report): branches 81,8%, linhas 93,9% (domínio e aplicação) |
 | Documentação da API | Ver "Documentação da API" abaixo |
 | Análise de vulnerabilidades | Ver "Análise de vulnerabilidades" abaixo |
-| Credenciais | Só as de demonstração (`admin` / `admin123`), documentadas no README; em produção vêm de variáveis de ambiente |
+| Credenciais | Nenhuma no repositório: senhas e chave do JWT vêm do arquivo `.env` (fora do Git), a partir do modelo [`.env.example`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/.env.example) |
 
 ## Documentação da API (Swagger / OpenAPI)
 
@@ -63,3 +63,23 @@ Relatórios em [`docs/seguranca/`](https://github.com/ZgMaverick/ProjetoFiap_Ofi
 | Pacotes NuGet (incluindo transitivos) | `dotnet list package --vulnerable --include-transitive` → [`pacotes-nuget.txt`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/docs/seguranca/pacotes-nuget.txt) | Nenhum pacote vulnerável |
 | Imagem Docker da API (HIGH/CRITICAL) | Trivy → [`imagem-docker.txt`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/docs/seguranca/imagem-docker.txt) | 0 vulnerabilidades (SO Ubuntu 24.04 e runtime .NET 10.0.14) |
 | Análise estática do código | SonarQube → [`Vulnerabilidades.png`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/docs/seguranca/Vulnerabilidades.png) | Painel com Quality Gate, bugs, vulnerabilidades e cobertura |
+
+---
+
+# 3. Vídeo da entrega
+
+**YouTube (público):** _link do vídeo_
+
+# 4. Documentação DDD
+
+- **Miro (acesso sem pedir permissão):** [https://miro.com/app/board/uXjVEXtrgrQ=/?share_link_id=578425858571](https://miro.com/app/board/uXjVEXtrgrQ=/?share_link_id=578425858571)
+- **No repositório:** [`docs/ddd/`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/tree/dev/docs/ddd)
+
+| Conteúdo pedido | Onde está |
+|---|---|
+| Event Storming da criação da OS, do acompanhamento da OS e da gestão de peças e insumos | [`event-storming.md`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/docs/ddd/event-storming.md), seções 1 a 3, e [`event-storming.png`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/docs/ddd/event-storming.png) |
+| Eventos de domínio, comandos, políticas e atores | [`event-storming.md`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/docs/ddd/event-storming.md), seção "Resumo" |
+| Agregados, entidades, objetos de valor e bounded contexts | [`modelo-de-dominio.md`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/docs/ddd/modelo-de-dominio.md) |
+| Diagramas | Domain Storytelling ([`domain-storytelling.png`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/docs/ddd/domain-storytelling.png)) e C4 ([`c4.png`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/docs/arquitetura/c4.png)) |
+| Linguagem ubíqua e glossário | [`linguagem-ubiqua.md`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/docs/ddd/linguagem-ubiqua.md) e [`glossario.pdf`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/docs/ddd/glossario.pdf) |
+| Relação entre a documentação e o código | [`modelo-de-dominio.md`](https://github.com/ZgMaverick/ProjetoFiap_Oficina/blob/dev/docs/ddd/modelo-de-dominio.md), seções "Relação entre documentação e código" e "Decisões do MVP" |

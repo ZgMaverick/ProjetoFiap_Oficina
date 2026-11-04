@@ -1,42 +1,0 @@
-¢
-rC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\Servicos\OrdemServicoServiceTests.csOficina.UnitTestsk
-3Oficina.UnitTests.Servicos.OrdemServicoServiceTests4Criar_os_cadastra_cliente_e_veiculo_e_grava_no_bancoi
-3Oficina.UnitTests.Servicos.OrdemServicoServiceTests2Segunda_os_do_mesmo_cliente_reaproveita_o_cadastroX
-3Oficina.UnitTests.Servicos.OrdemServicoServiceTests!Adicionar_peca_reserva_no_estoqueW
-3Oficina.UnitTests.Servicos.OrdemServicoServiceTests Sem_saldo_a_peca_nao_entra_na_osd
-3Oficina.UnitTests.Servicos.OrdemServicoServiceTests-Recusar_orcamento_cancela_e_devolve_a_reservak
-3Oficina.UnitTests.Servicos.OrdemServicoServiceTests4Finalizar_da_baixa_no_estoque_e_entra_no_tempo_medio_
-3Oficina.UnitTests.Servicos.OrdemServicoServiceTests(Cliente_nao_consulta_os_de_outro_clienteZ
-3Oficina.UnitTests.Servicos.OrdemServicoServiceTests#Os_inexistente_lanca_nao_encontradoµ
-oC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\Servicos\CadastrosServiceTests.csOficina.UnitTestsX
-0Oficina.UnitTests.Servicos.CadastrosServiceTests$Cliente_criado_e_gravado_sem_mascarad
-0Oficina.UnitTests.Servicos.CadastrosServiceTests0Nao_cadastra_dois_clientes_com_o_mesmo_documentoO
-0Oficina.UnitTests.Servicos.CadastrosServiceTestsAtualizar_e_remover_cliente]
-0Oficina.UnitTests.Servicos.CadastrosServiceTests)Entrada_de_estoque_aumenta_o_saldo_fisico^
-0Oficina.UnitTests.Servicos.CadastrosServiceTests*Nao_cadastra_duas_pecas_com_o_mesmo_codigo_
-0Oficina.UnitTests.Servicos.CadastrosServiceTests+Catalogo_de_servicos_lista_o_que_foi_criadoØ
-`C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\PecaInsumoTests.csOficina.UnitTestsV
-!Oficina.UnitTests.PecaInsumoTests1Reservar_diminui_o_disponivel_sem_mexer_no_fisicoF
-!Oficina.UnitTests.PecaInsumoTests!Nao_reserva_mais_que_o_disponivelH
-!Oficina.UnitTests.PecaInsumoTests#Baixa_tira_do_fisico_e_do_reservado=
-!Oficina.UnitTests.PecaInsumoTestsNao_da_baixa_sem_reservaI
-!Oficina.UnitTests.PecaInsumoTests$Devolver_reserva_libera_o_disponivelD
-!Oficina.UnitTests.PecaInsumoTestsQuantidade_precisa_ser_positiva˚
-dC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\OrdemDeServicoTests.csOficina.UnitTestsT
-%Oficina.UnitTests.OrdemDeServicoTests+Nova_os_nasce_recebida_e_registra_historicoB
-%Oficina.UnitTests.OrdemDeServicoTestsOs_sem_relato_e_rejeitadaH
-%Oficina.UnitTests.OrdemDeServicoTestsOrcamento_soma_servicos_e_pecasF
-%Oficina.UnitTests.OrdemDeServicoTestsNao_envia_orcamento_sem_itensL
-%Oficina.UnitTests.OrdemDeServicoTests#Nao_envia_orcamento_sem_diagnosticoN
-%Oficina.UnitTests.OrdemDeServicoTests%Nao_adiciona_item_fora_do_diagnosticoD
-%Oficina.UnitTests.OrdemDeServicoTestsFluxo_completo_ate_entregueG
-%Oficina.UnitTests.OrdemDeServicoTestsRecusar_orcamento_cancela_a_osC
-%Oficina.UnitTests.OrdemDeServicoTestsNao_finaliza_sem_aprovacaoG
-%Oficina.UnitTests.OrdemDeServicoTestsNao_entrega_antes_de_finalizarC
-%Oficina.UnitTests.OrdemDeServicoTestsNao_cancela_os_em_execucaoT
-%Oficina.UnitTests.OrdemDeServicoTests+Tempo_de_execucao_e_nulo_antes_de_finalizarê
-eC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\tests\Oficina.UnitTests\DocumentoEPlacaTests.csOficina.UnitTestsC
-&Oficina.UnitTests.DocumentoEPlacaTestsDocumento_valido_e_aceitoH
-&Oficina.UnitTests.DocumentoEPlacaTestsDocumento_invalido_e_rejeitado?
-&Oficina.UnitTests.DocumentoEPlacaTestsPlaca_valida_e_aceitaD
-&Oficina.UnitTests.DocumentoEPlacaTestsPlaca_invalida_e_rejeitada

@@ -26,8 +26,13 @@ builder.Services.AddScoped<PecaInsumoService>();
 builder.Services.AddControllers()
     .AddJsonOptions(o => o.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 
-// JWT
+// JWT. A chave e a senha do admin não ficam no repositório: vêm do .env (Docker),
+// de user-secrets ou de variáveis de ambiente. Sem elas, a API não sobe.
 var jwt = builder.Configuration.GetSection("Jwt");
+if ((jwt["Chave"] ?? "").Length < 32)
+    throw new InvalidOperationException("Configure Jwt:Chave com pelo menos 32 caracteres (veja o README).");
+if (string.IsNullOrWhiteSpace(builder.Configuration["Admin:Senha"]))
+    throw new InvalidOperationException("Configure Admin:Senha (veja o README).");
 builder.Services
     .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(o => o.TokenValidationParameters = new TokenValidationParameters

@@ -1,8 +1,0 @@
-﻿C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Infrastructure\DependencyInjection.cs
-C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Infrastructure\Persistencia\Migrations\20261103134305_Inicial.cs
-C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Infrastructure\Persistencia\Migrations\20261103134305_Inicial.Designer.cs
-C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Infrastructure\Persistencia\Migrations\20261103142904_Inicial2.cs
-C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Infrastructure\Persistencia\Migrations\20261103142904_Inicial2.Designer.cs
-C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Infrastructure\Persistencia\Migrations\OficinaDbContextModelSnapshot.cs
-C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Infrastructure\Persistencia\OficinaDbContext.cs
-C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Infrastructure\Persistencia\Repositorio.cs

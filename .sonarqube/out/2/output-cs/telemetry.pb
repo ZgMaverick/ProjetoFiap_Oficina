@@ -1,1 +1,0 @@
-{RnC:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Infrastructure\Oficina.Infrastructure.csprojòCSharp14

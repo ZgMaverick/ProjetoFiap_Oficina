@@ -63,19 +63,25 @@ docker run -it --rm -p 8081:8080 -v "$(pwd)/docs/arquitetura:/usr/local/structur
 
 ## Como executar
 
+As senhas e a chave do JWT não ficam no repositório. Elas vêm de um arquivo `.env`, que está no `.gitignore`:
+
 ```bash
+cp .env.example .env      # troque os valores, se quiser
 docker compose up --build
 ```
 
-Sobe o PostgreSQL e a API. A API aplica as migrations ao iniciar.
+Sobe o PostgreSQL e a API. A API aplica as migrations ao iniciar. Sem o `.env`, o compose para e diz qual variável está faltando.
 
 - API: http://localhost:8080
 - Para parar e apagar os dados: `docker compose down -v`
 
-**Sem Docker para a API** (só o banco no Docker):
+**Sem Docker para a API** (só o banco no Docker). As configurações vão para o user-secrets do .NET, fora da pasta do projeto. Use os mesmos valores do seu `.env`:
 
 ```bash
 docker compose up -d db
+dotnet user-secrets --project src/Oficina.Api set "ConnectionStrings:Oficina" "Host=localhost;Port=5432;Database=oficina;Username=oficina;Password=SUA_SENHA_DO_POSTGRES"
+dotnet user-secrets --project src/Oficina.Api set "Jwt:Chave" "SUA_CHAVE_COM_32_CARACTERES_OU_MAIS"
+dotnet user-secrets --project src/Oficina.Api set "Admin:Senha" "SUA_SENHA_DO_ADMIN"
 dotnet run --project src/Oficina.Api
 ```
 
@@ -85,19 +91,17 @@ Abra **http://localhost:8080/swagger** (ou a porta mostrada pelo `dotnet run`). 
 
 ## Autenticação
 
-Credenciais de **demonstração** (definidas em `appsettings.json`; em produção vêm de variáveis de ambiente):
+O usuário administrativo é `admin`. A senha é a que você definiu em `ADMIN_SENHA` no `.env` (no modelo `.env.example`, `troque-esta-senha`).
 
-| Usuário | Senha |
-|---|---|
-| `admin` | `admin123` |
-
-1. `POST /api/auth/login` com `{"usuario": "admin", "senha": "admin123"}`.
-2. Copie o `token` da resposta.
+1. `POST /api/auth/login` com `{"usuario": "admin", "senha": "<ADMIN_SENHA>"}`.
+2. Copie o `token` da resposta. Ele vale por 8 horas.
 3. No Swagger, clique em **Authorize** e cole só o token (sem a palavra `Bearer`).
 
-As rotas `/api/acompanhamento/*` são públicas (usadas pelo cliente). Todas as outras exigem o token.
+As rotas `/api/acompanhamento/*` são públicas (usadas pelo cliente, que informa o número da OS e o CPF/CNPJ). Todas as outras exigem o token.
 
-A chave do JWT pode ser trocada com a variável `JWT_CHAVE` (mínimo de 32 caracteres) ao subir o compose.
+A chave de assinatura do JWT vem de `JWT_CHAVE` no `.env` (mínimo de 32 caracteres). Sem a chave ou sem a senha, a API não sobe.
+
+> Se você já tinha subido o projeto antes desta mudança, rode `docker compose down -v` uma vez. O volume antigo do PostgreSQL guarda a senha anterior.
 
 ### Roteiro rápido pelo Swagger
 
@@ -175,22 +179,31 @@ docker run --rm -v //var/run/docker.sock:/var/run/docker.sock aquasec/trivy imag
 │   ├── Oficina.UnitTests/
 │   └── Oficina.IntegrationTests/
 ├── docs/
-│   ├── arquitetura/              # C4 (Structurizr)
+│   ├── api/                      # OpenAPI exportado
+│   ├── arquitetura/              # C4 (Structurizr + imagem)
+│   ├── ddd/                      # Event Storming, modelo de domínio, linguagem ubíqua
+│   ├── entrega/                  # Identificação da entrega
 │   └── seguranca/                # Relatórios de vulnerabilidades
 ├── coverage-report/              # Relatório de cobertura
+├── .env.example                  # Modelo das variáveis (senhas e chave do JWT)
 ├── Dockerfile
 └── docker-compose.yml
 ```
-## Event Storming, Domain Story telling, C4
 
-todas as documentacoes a seguir se encontram em https://miro.com/app/board/uXjVEXtrgrQ=/?share_link_id=578425858571
-- Documentacao c4[`C4.png`](docs/C4/C4.png)
-- Event Storming [`EventStorming.png`](docs/EventStorming/EventStorming.png)
-- Domain Storytelling [`StoryTelling.png`](docs/DomainStoryTelling/StoryTelling.png)
+## Documentação DDD
 
-## DICIONARIO DE LINGUAGEM UBIQUA
+Quadro no Miro: https://miro.com/app/board/uXjVEXtrgrQ=/?share_link_id=578425858571
 
-Documento em[`Glossario.pdf`](docs/Wiki/Glossario.pdf)
+Tudo está em [`docs/ddd/`](docs/ddd/README.md):
+
+- [Event Storming](docs/ddd/event-storming.md): criação da OS, acompanhamento da OS e peças/insumos, com atores, comandos, eventos e políticas. Exportação do Miro em [`event-storming.png`](docs/ddd/event-storming.png).
+- [Modelo de domínio](docs/ddd/modelo-de-dominio.md): bounded contexts, agregados, entidades, objetos de valor, a relação com o código e as decisões do MVP.
+- [Linguagem ubíqua](docs/ddd/linguagem-ubiqua.md): os termos do MVP e o nome de cada um no código.
+- Domain Storytelling: [`domain-storytelling.png`](docs/ddd/domain-storytelling.png)
+- Glossário completo: [`glossario.pdf`](docs/ddd/glossario.pdf)
+- Diagramas C4: [`c4.png`](docs/arquitetura/c4.png) e [`workspace.dsl`](docs/arquitetura/workspace.dsl)
+
+## Dicionário de linguagem ubíqua (completo)
 # Atendimento
 
 | Termo | Definição | Evitar |
@@ -274,4 +287,3 @@ Documento em[`Glossario.pdf`](docs/Wiki/Glossario.pdf)
 | NFS-e / NF-e | Nota de serviço (mão de obra) e nota de produto (peças). A separação depende do município. | — |
 | Entrega | Devolução do veículo ao cliente, com explicação do que foi feito. | “liberação” |
 | Garantia | Prazo ou quilometragem de cobertura de um serviço ou peça. | — |
-```

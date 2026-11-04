@@ -1,1 +1,0 @@
-kR^C:\Users\harmo\OneDrive\Documents\ProjetoFiap_Oficina\src\Oficina.Domain\Oficina.Domain.csprojòCSharp14
