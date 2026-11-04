@@ -196,10 +196,10 @@ Quadro no Miro: https://miro.com/app/board/uXjVEXtrgrQ=/?share_link_id=578425858
 
 Tudo está em [`docs/ddd/`](docs/ddd/README.md):
 
-- [Event Storming](docs/ddd/event-storming.md): criação da OS, acompanhamento da OS e peças/insumos, com atores, comandos, eventos e políticas. Exportação do Miro em [`event-storming.png`](docs/ddd/event-storming.png).
+- [Event Storming](docs/ddd/event-storming.md): criação da OS, acompanhamento da OS e peças/insumos, com atores, comandos, eventos e políticas. Exportação do Miro em [`event-storming.png`](docs/ddd/event-storming.png), e a versão comparada com o código em [`event-storming-mvp.png`](docs/ddd/event-storming-mvp.png) (vermelho: fora do MVP; laranja: simplificado).
 - [Modelo de domínio](docs/ddd/modelo-de-dominio.md): bounded contexts, agregados, entidades, objetos de valor, a relação com o código e as decisões do MVP.
 - [Linguagem ubíqua](docs/ddd/linguagem-ubiqua.md): os termos do MVP e o nome de cada um no código.
-- Domain Storytelling: [`domain-storytelling.png`](docs/ddd/domain-storytelling.png)
+- Domain Storytelling: [`domain-storytelling.png`](docs/ddd/domain-storytelling.png) e a versão comparada com o código em [`domain-storytelling-mvp.png`](docs/ddd/domain-storytelling-mvp.png)
 - Glossário completo: [`glossario.pdf`](docs/ddd/glossario.pdf)
 - Diagramas C4: [`c4.png`](docs/arquitetura/c4.png) e [`workspace.dsl`](docs/arquitetura/workspace.dsl)
 

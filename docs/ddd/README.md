@@ -6,6 +6,8 @@
 |---|---|
 | [`event-storming.png`](event-storming.png) | Exportação do Event Storming do Miro |
 | [`domain-storytelling.png`](domain-storytelling.png) | Exportação do Domain Storytelling do Miro |
+| [`event-storming-mvp.png`](event-storming-mvp.png) | O mesmo Event Storming com as partes **fora do MVP** marcadas em vermelho e as **simplificadas** em laranja |
+| [`domain-storytelling-mvp.png`](domain-storytelling-mvp.png) | O mesmo Domain Storytelling com as mesmas marcações |
 | [`event-storming.md`](event-storming.md) | Event Storming em texto dos três fluxos (criação da OS, acompanhamento da OS, peças e insumos): atores, comandos, eventos e políticas, como estão no código |
 | [`modelo-de-dominio.md`](modelo-de-dominio.md) | Bounded contexts, agregados, entidades, objetos de valor, regras de negócio e a relação com o código |
 | [`linguagem-ubiqua.md`](linguagem-ubiqua.md) | Linguagem ubíqua do MVP, com o nome de cada termo no código |
