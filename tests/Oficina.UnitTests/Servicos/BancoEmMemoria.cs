@@ -38,5 +38,7 @@ public sealed class BancoEmMemoria : IDisposable
 
     public ServicoCatalogoService Catalogo() => new(new Repositorio<Servico>(Contexto), Contexto);
 
+    public VeiculoService Veiculos() => new(new Repositorio<Veiculo>(Contexto), new Repositorio<Cliente>(Contexto), Contexto);
+
     public void Dispose() => Contexto.Dispose();
 }
