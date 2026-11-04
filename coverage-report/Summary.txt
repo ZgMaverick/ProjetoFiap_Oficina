@@ -1,0 +1,57 @@
+Summary
+  Generated on: 11/3/2026 - 9:42:08 PM
+  Coverage date: 11/3/2026 - 9:33:57 PM - 11/3/2026 - 9:33:58 PM
+  Parser: MultiReport (2x Cobertura)
+  Assemblies: 2
+  Classes: 33
+  Files: 19
+  Line coverage: 93.9%
+  Covered lines: 594
+  Uncovered lines: 38
+  Coverable lines: 632
+  Total lines: 905
+  Branch coverage: 81.8% (149 of 182)
+  Covered branches: 149
+  Total branches: 182
+  Method coverage: 96.4% (188 of 195)
+  Full method coverage: 90.7% (177 of 195)
+  Covered methods: 188
+  Fully covered methods: 177
+  Total methods: 195
+
+Oficina.Application                                                                                                                               94.4%
+  Oficina.Application.Abstracoes.NaoEncontradoException                                                                                            100%
+  Oficina.Application.Cadastros.ClienteRequest                                                                                                     100%
+  Oficina.Application.Cadastros.ClienteResponse                                                                                                    100%
+  Oficina.Application.Cadastros.ClienteService                                                                                                    95.6%
+  Oficina.Application.Cadastros.EntradaEstoqueRequest                                                                                              100%
+  Oficina.Application.Cadastros.PecaInsumoRequest                                                                                                  100%
+  Oficina.Application.Cadastros.PecaInsumoResponse                                                                                                 100%
+  Oficina.Application.Cadastros.PecaInsumoService                                                                                                  100%
+  Oficina.Application.Cadastros.ServicoCatalogoService                                                                                             100%
+  Oficina.Application.Cadastros.ServicoRequest                                                                                                     100%
+  Oficina.Application.Cadastros.ServicoResponse                                                                                                    100%
+  Oficina.Application.Cadastros.VeiculoRequest                                                                                                     100%
+  Oficina.Application.Cadastros.VeiculoResponse                                                                                                    100%
+  Oficina.Application.Cadastros.VeiculoService                                                                                                     100%
+  Oficina.Application.OrdensDeServico.AdicionarPecaRequest                                                                                         100%
+  Oficina.Application.OrdensDeServico.CriarOrdemServicoRequest                                                                                     100%
+  Oficina.Application.OrdensDeServico.HistoricoResponse                                                                                            100%
+  Oficina.Application.OrdensDeServico.ItemResponse                                                                                                 100%
+  Oficina.Application.OrdensDeServico.OrdemServicoResponse                                                                                         100%
+  Oficina.Application.OrdensDeServico.OrdemServicoService                                                                                         87.9%
+  Oficina.Application.OrdensDeServico.TempoMedioResponse                                                                                           100%
+
+Oficina.Domain                                                                                                                                    93.6%
+  Oficina.Domain.Clientes.Cliente                                                                                                                 94.4%
+  Oficina.Domain.Comum.Documento                                                                                                                  94.2%
+  Oficina.Domain.Comum.DomainException                                                                                                             100%
+  Oficina.Domain.Comum.Placa                                                                                                                        90%
+  Oficina.Domain.Estoque.PecaInsumo                                                                                                               92.5%
+  Oficina.Domain.OrdensDeServico.HistoricoStatus                                                                                                   100%
+  Oficina.Domain.OrdensDeServico.ItemOrdemServico                                                                                                  100%
+  Oficina.Domain.OrdensDeServico.OrdemDeServico                                                                                                   95.4%
+  Oficina.Domain.Servicos.Servico                                                                                                                 87.5%
+  Oficina.Domain.Veiculos.Veiculo                                                                                                                  100%
+  System.Text.RegularExpressions.Generated                                                                                                        90.9%
+  System.Text.RegularExpressions.Generated.<RegexGenerator_g>F7C759C38A39A47A97D8D0DEAF2C399F26F542EEE04C48ABD07008010BC29FDD9__FormatoValido_0   90.5%

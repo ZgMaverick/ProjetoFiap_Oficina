@@ -1,0 +1,32 @@
+# As senhas e a chave do JWT vêm do arquivo .env (fora do Git).
+# Crie o seu a partir do modelo: cp .env.example .env
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: oficina
+      POSTGRES_USER: oficina
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Defina POSTGRES_PASSWORD no arquivo .env}
+    ports:
+      - "5432:5432"
+    volumes:
+      - dados:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U oficina -d oficina"]
+      interval: 5s
+      retries: 10
+
+  api:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      ConnectionStrings__Oficina: "Host=db;Port=5432;Database=oficina;Username=oficina;Password=${POSTGRES_PASSWORD}"
+      Jwt__Chave: ${JWT_CHAVE:?Defina JWT_CHAVE no arquivo .env}
+      Admin__Senha: ${ADMIN_SENHA:?Defina ADMIN_SENHA no arquivo .env}
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  dados:
